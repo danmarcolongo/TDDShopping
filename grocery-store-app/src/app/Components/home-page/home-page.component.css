@@ -1,0 +1,9 @@
+.home-div {
+    text-align: center;
+}
+
+mat-card-title {
+    border: black solid 2px;
+    padding: 2%;
+    background-color: darkgray;
+}

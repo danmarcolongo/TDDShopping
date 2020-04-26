@@ -1,0 +1,36 @@
+<!-- 
+    This section contains the menu nav component
+    All components that aren't the header component are to be placed in the mat-sidenav-content section\
+    --Daniel
+ -->
+
+<mat-sidenav-container class="menu-nav">
+    <!-- 
+        This section houses a menu that will scroll down the page
+        --Daniel
+      -->
+    <mat-sidenav #sidenav [mode]="mode.value">
+        <p><button mat-icon-button (click)="sidenav.toggle()"><mat-icon>menu_open</mat-icon></button></p>
+        <p>
+            Placeholder
+        </p>
+    </mat-sidenav>
+
+    <!-- 
+        This section houses the content of the main page
+        --Daniel
+     -->
+    <mat-sidenav-content class="menu-content">
+        <ul class="menu-nav-list">
+            <li class="menu-nav-button">
+                <p class="menu-nav-button-inside"><button mat-icon-button (click)="sidenav.toggle()"><mat-icon>menu</mat-icon></button></p>
+            </li>
+            <li>
+                <h1 class="menu-nav-header">Grocery Store Application</h1>
+            </li>
+        </ul>
+        <app-home-page></app-home-page>
+        <app-footer-section></app-footer-section>
+    </mat-sidenav-content>
+</mat-sidenav-container>
+  

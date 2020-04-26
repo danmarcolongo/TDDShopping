@@ -1,0 +1,10 @@
+.footer-div {
+    border-style: solid;
+    border-color: black;
+    margin: 5% 0% 0% 0%;
+}
+
+mat-toolbar {
+    background-color: coral;
+    padding: 2%;
+}

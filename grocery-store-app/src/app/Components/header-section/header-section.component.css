@@ -1,0 +1,18 @@
+mat-toolbar {
+    background-color: coral;
+    padding: 4%;
+    border: black 3px solid;
+}
+
+.header-head {
+    padding: 2% 2% 2% 0%;
+}
+
+nav {
+    flex: 1 1 auto;
+}
+
+.header-login {
+    flex: 1 1 auto;
+}
+

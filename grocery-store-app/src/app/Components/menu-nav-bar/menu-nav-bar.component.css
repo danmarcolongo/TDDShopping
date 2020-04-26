@@ -1,0 +1,38 @@
+.menu-nav {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.menu-content {
+  text-align: center;
+}
+
+.menu-nav-list {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+  display: block;
+}
+
+.menu-nav-button {
+  text-align: left;
+  position: sticky;
+  top: auto;
+}
+
+.menu-nav-header {
+  margin-top: -3%;
+}
+
+@media only screen and (max-width: 600px) {
+  .menu-nav-header {
+    margin-top: -5%;
+  }
+}
+
+.header-list {
+  text-align: right;
+}

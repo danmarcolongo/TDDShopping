@@ -1,0 +1,22 @@
+<!-- 
+    This component contains the header section contents
+    Any additions to this section should be placed into the table
+    --Daniel
+ -->
+
+<mat-toolbar>
+    <span class="header-head">
+        <h2>Grocery Store</h2>
+    </span>
+    <span class="header-tab">
+        <nav mat-tab-nav-bar>
+            <a mat-tab-link routerLinkActive #rla="routerLinkActive" [active]="rla.isActive"> Home </a>
+            <a mat-tab-link> Market Place </a>
+            <a mat-tab-link> Contact Us </a>
+            <a mat-tab-link> Inventory </a>
+        </nav>
+    </span>
+    <span class="header-login">
+        <button mat-icon-button ><mat-icon>input</mat-icon></button>
+    </span>
+</mat-toolbar>
