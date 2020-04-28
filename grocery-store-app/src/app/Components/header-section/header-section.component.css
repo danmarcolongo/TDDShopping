@@ -1,6 +1,6 @@
 mat-toolbar {
     background-color: coral;
-    padding: 4%;
+    padding: 3%;
     border: black 3px solid;
 }
 
@@ -9,10 +9,30 @@ mat-toolbar {
 }
 
 nav {
-    flex: 1 1 auto;
+    /* flex: 1 1 auto; */
+    background-color: darkgray;
+    border: solid black 1px;
+}
+
+@media only screen and (max-width: 900px) {
+    .header-tab {
+        /* width: 50%; */
+        min-width: 50% !important;
+        flex: 1 !important;
+        padding: 0 !important;
+        scroll-snap-type: mandatory;
+    }
+
+    .mat-tab-header-pagination-before .mat-tab-header-pagination-chevron {
+        transform: rotate(-135deg);
+    }
+    
+    .mat-tab-header-pagination-after .mat-tab-header-pagination-chevron {
+        transform: rotate(45deg);
+    }
 }
 
 .header-login {
     flex: 1 1 auto;
+    text-align: right;
 }
-

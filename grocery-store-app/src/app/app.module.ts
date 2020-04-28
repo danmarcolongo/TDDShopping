@@ -17,6 +17,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { HeaderSectionComponent } from './Components/header-section/header-section.component';
 import { MainPageComponent } from './Components/main-page/main-page.component';
 import { AppFooterSectionComponent } from './Components/app-footer-section/app-footer-section.component';
+import { MarketplacePageComponent } from './Components/marketplace-page/marketplace-page.component';
+import { ContactUsPageComponent } from './Components/contact-us-page/contact-us-page.component';
+import { InventoryPageComponent } from './Components/inventory-page/inventory-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +28,10 @@ import { AppFooterSectionComponent } from './Components/app-footer-section/app-f
     MenuNavBarComponent,
     HeaderSectionComponent,
     MainPageComponent,
-    AppFooterSectionComponent
+    AppFooterSectionComponent,
+    MarketplacePageComponent,
+    ContactUsPageComponent,
+    InventoryPageComponent
   ],
   imports: [
     BrowserModule,
