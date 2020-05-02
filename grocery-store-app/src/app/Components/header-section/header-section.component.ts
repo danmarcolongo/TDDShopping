@@ -6,6 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header-section.component.css']
 })
 export class HeaderSectionComponent implements OnInit {
+  headers = [
+    {
+      name: 'Home',
+      url: 'home-page',
+    },
+    {
+      name: 'Marketplace',
+      url: 'marketplace-page',
+    },
+    {
+      name: 'Contact Us',
+      url: 'contact-us-page',
+    },
+    {
+      name: 'Inventory',
+      url: 'inventory-page',
+    },
+  ];
 
   constructor() { }
 

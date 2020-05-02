@@ -1,19 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { HeaderSectionComponent } from './header-section.component';
 
-describe('HeaderSectionComponent', () => {
-  let component: HeaderSectionComponent;
-  let fixture: ComponentFixture<HeaderSectionComponent>;
+import { MarketplacePageComponent } from './marketplace-page.component';
+
+describe('MarketplacePageComponent', () => {
+  let component: MarketplacePageComponent;
+  let fixture: ComponentFixture<MarketplacePageComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ HeaderSectionComponent ]
+      declarations: [ MarketplacePageComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(HeaderSectionComponent);
+    fixture = TestBed.createComponent(MarketplacePageComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
